@@ -79,7 +79,7 @@ switchport mode trunk
 switchport trunk native vlan 99
 switchport trunk allowed vlan 10,20,30,40,50,60,70,80,90,99,100
 interface vlan 99
-ip address 172.16.0.255 255.255.0.0
+ip address 172.16.0.254 255.255.0.0
 ip default-gateway 172.16.0.1
 no shutdown
 do wr
@@ -184,7 +184,7 @@ switchport mode trunk
 switchport trunk native vlan 99
 switchport trunk allowed vlan 10,20,30,40,50,60,70,80,90,99,100
 interface vlan 99
-ip address 172.16.255.253 255.255.0.0
+ip address 172.16.0.253 255.255.0.0
 no shutdown
 ip default-gateway 172.16.0.1
 do wr
